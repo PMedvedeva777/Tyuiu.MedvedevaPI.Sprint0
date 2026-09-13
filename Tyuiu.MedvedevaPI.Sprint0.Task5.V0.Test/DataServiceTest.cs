@@ -23,6 +23,6 @@ public sealed class DataServiceTest
     [TestMethod]
     public void CheckedDivisionValid()
     {
-        Assert.AreEqual(3, DataService.Division(9, 3));
+        Assert.AreEqual(3, DataService.Division(18, 3));
     }
 }
